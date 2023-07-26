@@ -1,0 +1,25 @@
+/* test */
+html {
+    height: 100%;
+}
+
+.nav-tabs {
+    justify-content: right;
+}
+
+.homepageMain {
+    background: linear-gradient(0.375turn,  #d3d4fc 4%, #d2daee 20%, #cddbff 60%, #c7c9f0 70%, #dde4ee 96%);
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+}
+
+.homepageMain h1 {
+    color: #2d2f30;
+    margin-left: 2rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #919299;
+}
+
+.homepageMain p {
+    margin: 0.25rem 0.5rem;
+}
