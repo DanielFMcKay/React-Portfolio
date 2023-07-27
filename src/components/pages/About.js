@@ -14,13 +14,13 @@ export default function About() {
                         target="_blank">Vivalon</a></u> in Marin County. Currently I am in the middle
                         of a giant course change in my life in the form of a full-stack web development.
                     </p>
-                    <img src={require("../../images/Dan-Selfie1b.png")} alt="Card-X landing page" width="240px" height="315px" 
+                    <img src={require("../../images/Dan-Selfie1b.png")} alt="Dan McKay Profile Picture" width="240px" height="315px" 
       style={{
         position: 'relative',
         left: "2rem",
         borderRadius: "0.75rem",
         border: "1px solid #48504e88",
-        boxShadow: "3px 3px 3px #929e9caa",
+        boxShadow: "3px 3px 3px #5f6564aa",
         marginBottom: "1rem",
       }} 
       />

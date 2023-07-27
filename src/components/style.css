@@ -1,7 +1,7 @@
 /* test */
 html {
     height: 100%;
-    background: --linear-gradient(0.375urn, #c2c8ec, #f7f8ff, #e0e4f6, #899bfe 96%)
+    background: --linear-gradient(0.375turn, #c2c8ec, #f7f8ff, #e0e4f6, #899bfe 96%)
 }
 
 .nav-tabs {
@@ -47,7 +47,7 @@ html {
 }
 
 .HomepageMain {
-    background: linear-gradient(0.375turn,  #d3d4fc 4%, #d2daee 20%, #cddbff 60%, #c7c9f0 70%, #dde4ee 96%);
+    background: linear-gradient(0.425turn,  #8081d6 1%, #d3d4fc 4%, #d2daee 20%, #cddbff 60%, #c7c9f0 70%, #dde4ee 96%);
     border-top: 1px solid #101010;
     border-bottom: 1px solid #101010;
 }
@@ -69,6 +69,9 @@ html {
 
 .Card-X-container {
     background-image: url("../images/Card-X-truncated-background.png");
+    background-size: cover;
+    border-bottom: 1px solid #101010;
+    padding-bottom: 5rem;
 }
 
 .Card-X-snapshot {

@@ -55,13 +55,18 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a 
+        style={{
+          fontSize: '1.1rem',
+          lineHeight: '1.1rem',
+        }}
           href="#Card-X"
           onClick={() => handlePageChange('Card-X')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Card-X' ? 'nav-link active' : 'nav-link'}
         >
-          Card-X
+          Selected<br></br>
+          Projects
         </a>
       </li>
     </ul>
