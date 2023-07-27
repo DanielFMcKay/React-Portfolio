@@ -1,25 +1,153 @@
 /* test */
 html {
     height: 100%;
+    background: --linear-gradient(0.375urn, #c2c8ec, #f7f8ff, #e0e4f6, #899bfe 96%)
 }
 
 .nav-tabs {
     justify-content: right;
+    background: --linear-gradient(0.375turn, #c2c8ec, #f7f8ff, #e0e4f6, #899bfe 96%);
 }
 
-.homepageMain {
+.nav-tabs a {
+    color: #0a567c;
+}
+
+.nav-tabs a:hover {
+    color: #020202;
+    text-shadow: 2px 2px 2px #919299;
+}
+
+.portfolio-header h1 {
+    font-family: "Constantia", sans-serif, Arial, "Roboto", Helvetica;
+    text-align: left;
+    text-shadow: 2px 2px 2px #919299;
+
+}
+
+.nav {
+    background: linear-gradient(0.495turn, #8ee3cf, #d8fdf5, #bbd7d1)
+}
+
+.nav-item {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d2f30;
+    text-shadow: 2px 2px 2px #919299;
+    background: linear-gradient(0.9turn, #4e4e4e 20%, #d4d4d4 70%, #808080 98%);
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-top: 0.25rem;
+    border: 1px solid #898e8d;
+}
+
+
+.nav-item a {
+    color: black;
+}
+
+.HomepageMain {
     background: linear-gradient(0.375turn,  #d3d4fc 4%, #d2daee 20%, #cddbff 60%, #c7c9f0 70%, #dde4ee 96%);
     border-top: 1px solid #101010;
     border-bottom: 1px solid #101010;
 }
 
-.homepageMain h1 {
+.HomepageMain h1 {
     color: #2d2f30;
     margin-left: 2rem;
     font-weight: 600;
     text-shadow: 2px 2px 2px #919299;
 }
 
-.homepageMain p {
-    margin: 0.25rem 0.5rem;
+.HomepageMain p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.25rem 1rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.Card-X-container {
+    background-image: url("../images/Card-X-truncated-background.png");
+}
+
+.Card-X-snapshot {
+   src: url("../images/Card-X-snapshot-1.png");
+}
+
+.Card-X-container p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    margin: 1rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+    max-width: 60%;
+}
+
+.Card-X-links {
+    text-decoration: none;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.Card-X-links a:hover {
+    color: #934871;
+    text-decoration: underline;
+}
+
+.Card-X-images {
+    src: '../images/Card-X-snapshot-1.png';
+}
+
+
+.AboutMeMain {
+    background: linear-gradient(0.375turn,  #d3fcf3 4%, #d2edee 20%, #faffff 60%, #d4ffeb 70%, #79ffc7 96%);
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+    padding-bottom: 3rem;
+}
+
+.AboutMeMain p {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    width: 60%;
+}
+
+.AboutMeMain h1 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.ResumeMain {
+    background: linear-gradient(0.375turn,  #d3fcf3 4%, #d2edee 20%, #faffff 60%, #d4ffeb 70%, #cc79ff 96%);
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+}
+
+.ResumeMain h1 {
+    margin-left: 1rem;
+}
+
+.ResumeMain p {
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.ContactMain {
+    border-bottom: 1px solid #101010;
+    background: linear-gradient(0.425turn, #7f7f7f 1%, #c0c0c0 5%, #e3e3e3, #979797 92%, #5c5c5c 97%)
+}
+
+.ContactMain h1, h2, p {
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.test-class {
+    color: #929e9c;
+
 }

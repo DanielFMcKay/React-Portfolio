@@ -2,25 +2,47 @@ import React from 'react';
 
 export default function CardX() {
   return (
-    <div>
+    <div className='Card-X-container'>
       <h1
       style={{
         fontFamily: "Lucida Handwriting, Arial, Roboto, sans-serif",
+        paddingTop: '1.25rem',
+        marginLeft: '0.5rem',
+        textShadow: '2px 2px 2px #5f6564',
       }}
       >Card-X</h1>
       <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+Card-X is a card-messaging app I helped make for my Full Stack Coding Bootcamp's Group Project 3. It creates a template for a card, and then allows you to send it to a friend. I was in charge of styling certain pages and components, including the landing page the grid display once you have logged in, the login page, the sign-up page, the Navbar, and the basic template for cards. I also helped with useState hooks and queries, including keeping them from triggering prematurely.
       </p>
-    </div>
+      <a href='https://tranquil-reef-31022-45823b0e137b.herokuapp.com/' target='_blank'>
+      <img src={require("../../images/Card-X-snapshot-1.png")} alt="Card-X landing page" width="450px" height="235px" 
+      style={{
+        position: 'absolute',
+        right: '5%',
+        top: '13%',
+        borderRadius: "0.5rem",
+        border: "2px solid #48504eb8",
+      }} 
+      /></a>
+      <div className='Card-X-links'>
+        <a href='https://tranquil-reef-31022-45823b0e137b.herokuapp.com/' target='_blank' rel='noreferrer'
+        style={{
+          color: '#485a93',
+          textDecoration: 'none',
+          fontWeight: '600',
+        }}
+        
+        >Card-X Live Site</a><br></br>
+        <a href='https://github.com/escotoj/Card-X' target='_blank' rel='noreferrer'
+                style={{
+                  color: '#485a93',
+                  textDecoration: 'none',
+                  fontWeight: '600',
+                }}
+        >Card-X GitHub Repo</a>
+        </div>
+
+  </div>
+
   );
 }

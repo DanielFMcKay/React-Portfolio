@@ -1,10 +1,18 @@
 import React from 'react';
+import './style.css';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs portfolio-header">
+      <h1 className='portfolio-header'
+        style={{
+          marginRight: 'auto',
+          marginLeft: 'auto',
+
+        }}
+      >Dan McKay's Very Basic React Portfolio</h1>
       <li className="nav-item">
         <a
           href="#home"

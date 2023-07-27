@@ -2,20 +2,11 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div className='homepageMain'>
+    <div className='HomepageMain'>
       <h1>Dan McKay's Portfolio</h1>
-      <p>Okay, gonna be real, I did NOT think I was gonna need this thing yet, so sorry about all the scuff</p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      <p>Okay, gonna be real, I did NOT think I was gonna need this thing yet, so sorry about all the scuff. I was fully planning on skipping this assignment as I did not need it for my grade and wanted to focus on Group Project 3, but part of that requires a link here, so here we are. Please do not judge me too harshly on the state of this thing. 🙏<br></br>
+      <br></br>
+            If you're reading this at the moment, you're probably from edX Central Grading, and looking for the link to my Group Project 3, Card-X. That can be found on the tab on the far right.
       </p>
     </div>
   );
