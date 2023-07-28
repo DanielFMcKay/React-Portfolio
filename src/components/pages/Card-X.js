@@ -12,7 +12,7 @@ export default function CardX() {
       }}
       >Card-X</h1>
       <p>
-Card-X is a card-messaging app I helped make for my Full Stack Coding Bootcamp's Group Project 3. It creates a template for a card, and then allows you to send it to a friend. I was in charge of styling certain pages and components, including the landing page the grid display once you have logged in, the login page, the sign-up page, the Navbar, the icon logo, and the basic template for cards. Not all pages are mine. I also helped with useState hooks and queries, including keeping them from triggering prematurely.
+Card-X is a card-messaging app I helped make for my Full Stack Coding Bootcamp's Group Project 3. It creates a template for a card, and then allows you to send it to a friend. I was in charge of styling certain pages and components, including the landing page, the grid display once you have logged in, the login page, the sign-up page, the naivgation bar (including mobile reflexiveness), the icon logo, and the basic template for cards. Not all pages are mine. I also helped with useState hooks and queries, including keeping them from triggering prematurely.
       </p>
       <a href='https://tranquil-reef-31022-45823b0e137b.herokuapp.com/' target='_blank'>
       <img src={require("../../images/Card-X-snapshot-1.png")} alt="Card-X landing page" width="450px" height="235px" 
