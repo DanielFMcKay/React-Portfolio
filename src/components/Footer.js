@@ -32,7 +32,7 @@ export default function Footer() {
           <Typography variant="body2" color="background.secondary" align="center">
             {"Copyright © "}
             <Link color="inherit" href="/">
-              Card - X
+              Dan McKay
             </Link>{" "}
             {new Date().getFullYear()}
             {"."}
